@@ -27,13 +27,9 @@ For the full text of the GNU GPL v3.0, see the `LICENSE.txt` file in this reposi
 - This program be licensed under the same terms as FFmpegGPL (i.e., GPLv3).  
 
 A copy of the **FFmpegGPL license** is included in the `LICENSE.txt` file. 
-FFmpegGPL’s official license: [FFmpeg License](https://ffmpeg.org/legal.html).  
+FFmpegGPL’s official license: [FFmpeg License](https://ffmpeg.org/legal.html).   
 
-> **FFmpegGPL Source Code:**  
-> The source code for the **FFmpegGPL library** is available at the official FFmpeg repository:  
-> [FFmpeg Source Code](https://github.com/FFmpeg/FFmpeg).  
-
-## NuGet Package Installation
+## NuGet Package Installation And Source Code
 I used the "FFmpeg.GPL by FFmpeg Headers, import libraries, and runtime dlls for FFmpeg." NuGet package installed through the Microsoft Visual Studio NuGet Manager.  It is the Version 20260112.0.0.  The Project URL: https://ffmpeg.org/.  It is licensed under GPL-3.0-or-later.  This nuget package contains headers, import libraries, and runtime dlls for FFmpeg for use with Visual Studio. It is based on the FFmpeg windows builds from: https://github.com/BtbN/FFmpeg-Builds/releases
  
 ---
