@@ -6,16 +6,12 @@ Built with FFmpegGPL (GNU General Public License v3.0).
 ---
 
 # - License Notice 
+Copyright © 2026 Tri Cast
 
 This software is licensed under the **GNU General Public License v3.0 or later**.  
 For details, see the full license below.
 See the `LICENSE.txt` file for full details.  
 Or go online @ [GNU GPL v3.0 License](https://www.gnu.org/licenses/gpl-3.0.html).  
-
-
-Copyright © 2026 Tri Cast
-
-This program is distributed in the hope that it will be useful, but **WITHOUT ANY WARRANTY**; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. **See the GNU General Public License for more details.**
 
 #### 1. **FFmpegGPL Dependency**  
 This software includes the **FFmpegGPL** library, which is licensed under the **GNU General Public License v3.0** (GPLv3). By using this software, you agree to comply with the terms of the **FFmpegGPL license**, which requires that:  
@@ -49,8 +45,8 @@ This software may include third-party libraries (e.g., FFmpegGPL). The authors a
 
 ---
 
-Requirements
-# Software Prerequisites
+# Requirements
+Software Prerequisites:
 Visual Studio 2019 or later (Community, Professional, or Enterprise).
 .NET Framework 4.7.2 (ensure it is installed on your system).
 FFmpegGPL NuGet package (automatically restored via nuget restore).
