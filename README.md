@@ -1,6 +1,9 @@
 # Tri Cast Desktop Video Converter For DLNA  
 A Desktop App that uses FFmpegGPL to convert videos to a format that supports DLNA.  
 
+![Tri Cast Desktop Video Converter for DLNA](ReadmeCover.png)
+
+
 Built with FFmpegGPL (GNU General Public License v3.0).  
 
 ---
@@ -8,6 +11,11 @@ Built with FFmpegGPL (GNU General Public License v3.0).
 # License Notice
 
 Copyright © 2026 Tri Cast
+
+#### **No Warranty or Liability**  
+- This software is provided **"as is"**, without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and non-infringement.  
+- In no event shall the authors or copyright holders be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the software or the use or other dealings in the software.  
+- **Third-party components** (e.g., FFmpegGPL) are not liable for defects, bugs, or issues arising from their use. Users are advised to review the licenses of all included libraries and ensure compliance.
 
 This software is licensed under the **GNU General Public License v3.0 or later** (GPLv3+).  
 For the full text of the GNU GPL v3.0, see the `LICENSE.txt` file in this repository or visit:  
@@ -23,19 +31,19 @@ FFmpegGPL’s official license: [FFmpeg License](https://ffmpeg.org/legal.html).
 > **FFmpegGPL Source Code:**  
 > The source code for the **FFmpegGPL library** is available at the official FFmpeg repository:  
 > [FFmpeg Source Code](https://github.com/FFmpeg/FFmpeg).  
- 
-#### **No Warranty or Liability**  
-- This software is provided **"as is"**, without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and non-infringement.  
-- In no event shall the authors or copyright holders be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the software or the use or other dealings in the software.  
-- **Third-party components** (e.g., FFmpegGPL) are not liable for defects, bugs, or issues arising from their use. Users are advised to review the licenses of all included libraries and ensure compliance.
 
+    NuGet Package Installation:
+I used the "FFmpeg.GPL by FFmpeg Headers, import libraries, and runtime dlls for FFmpeg." NuGet package installed through the Microsoft Visual Studio NuGet Manager.  It is the Version 20260112.0.0.  The Project URL: https://ffmpeg.org/.  It is licensed under GPL-3.0-or-later.  This nuget package contains headers, import libraries, and runtime dlls for FFmpeg for use with Visual Studio. It is based on the FFmpeg windows builds from: https://github.com/BtbN/FFmpeg-Builds/releases
+ 
 ---
 
 ## Usage  
 
-1. Download the source code from [GitHub](https://github.com/danomite666/Tri-Cast-Video-Converter-For-DLNA).  
-2. Compile and run the application.  
-3. Ensure compliance with the GNU GPL v3.0 license when distributing or modifying this software, especially when incorporating the **FFmpegGPL library**, which requires the software to be licensed under GPLv3.
+1. Download the source code from [GitHub](https://github.com/danomite666/Tri-Cast-Video-Converter-For-DLNA).
+2. Load everything into your MSVS Project solution explorer of your Windows Forms App (.NET Framework).
+3. Install the FFmpeg.GPL by FFmpeg Headers, import libraries, and runtime dlls for FFmpeg." NuGet package installed through the Microsoft Visual Studio NuGet Manager.  It is the Version 20260112.0.0.   
+4. Compile and run the application.  
+5. Ensure compliance with the GNU GPL v3.0 license when distributing or modifying this software, especially when incorporating the **FFmpegGPL library**, which requires the software to be licensed under GPLv3.
 
 ---
 
@@ -43,7 +51,10 @@ FFmpegGPL’s official license: [FFmpeg License](https://ffmpeg.org/legal.html).
 Software Prerequisites:
 Visual Studio 2019 or later (Community, Professional, or Enterprise).
 .NET Framework 4.7.2 (ensure it is installed on your system).
-FFmpegGPL NuGet package (automatically restored via nuget restore).
+FFmpegGPL NuGet package (Install through the NuGet Manager).
+
+# Optimized for Nvidia Cuda 
+This program uses the Nvenc process.  You will need an Nvidia GPU to run it, unless you change the code to use CPU, etc . . .
 
 # Project Structure
 The project includes:
@@ -62,12 +73,10 @@ Ensure the target framework is set to .NET Framework 4.7.2 in Visual Studio.
 Open the project in Visual Studio 2019 or later.
 Locate the .sln file in the root directory and open it.
 
-3. Restore NuGet Packages
-If NuGet packages are not automatically restored,
-use Visual Studio’s "Restore NuGet Packages" option.
+3. Install the FFmpeg.GPL Version 20260112.0.0. Through the NuGet Manager.
 
-4. Build the Project
-In Visual Studio, select Build > Build Solution to compile the app.
+4. Save all, Clean, and Rebuild the Project
+In Visual Studio, select Build > Clean > Rebuild Solution to compile the app.
 
 5. Run the Application
 After a successful build, run the app from Debug > Start Debugging or via the compiled .exe file.
