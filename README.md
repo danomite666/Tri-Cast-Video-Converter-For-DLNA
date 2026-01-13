@@ -20,6 +20,9 @@ For the full text of the GNU GPL v3.0, see the `LICENSE.txt` file in this reposi
 A copy of the **FFmpegGPL license** is included in the `LICENSE.txt` file. 
 FFmpegGPL’s official license: [FFmpeg License](https://ffmpeg.org/legal.html).  
 
+> **FFmpegGPL Source Code:**  
+> The source code for the **FFmpegGPL library** is available at the official FFmpeg repository:  
+> [FFmpeg Source Code](https://github.com/FFmpeg/FFmpeg).  
  
 #### **No Warranty or Liability**  
 - This software is provided **"as is"**, without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and non-infringement.  
