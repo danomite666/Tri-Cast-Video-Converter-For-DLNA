@@ -5,35 +5,26 @@ Built with FFmpegGPL (GNU General Public License v3.0).
 
 ---
 
-# - License Notice 
+# License Notice
+
 Copyright © 2026 Tri Cast
 
-This software is licensed under the **GNU General Public License v3.0 or later**.  
-For details, see the full license below.
-See the `LICENSE.txt` file for full details.  
-Or go online @ [GNU GPL v3.0 License](https://www.gnu.org/licenses/gpl-3.0.html).  
+This software is licensed under the **GNU General Public License v3.0 or later** (GPLv3+).  
+For the full text of the GNU GPL v3.0, see the `LICENSE.txt` file in this repository or visit:  
+[GNU GPL v3.0 License](https://www.gnu.org/licenses/gpl-3.0.html)
 
-#### 1. **FFmpegGPL Dependency**  
-This software includes the **FFmpegGPL** library, which is licensed under the **GNU General Public License v3.0** (GPLv3). By using this software, you agree to comply with the terms of the **FFmpegGPL license**, which requires that:  
+> **Note:** This project incorporates the **FFmpegGPL** library, which is licensed under the **GNU General Public License v3.0** (GPLv3). By using this software, you agree to comply with the terms of the **FFmpegGPL license**, which requires that:  
 - The full source code of this program (and FFmpegGPL) be made available to users.  
 - This program be licensed under the same terms as FFmpegGPL (i.e., GPLv3).  
 
-A copy of the **FFmpegGPL license** is included in this file (see below).  
+A copy of the **FFmpegGPL license** is included in the `LICENSE.txt` file. 
+FFmpegGPL’s official license: [FFmpeg License](https://ffmpeg.org/legal.html).  
 
-#### 2. **No Warranty or Liability**  
-- **No warranties**: This software is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and non-infringement.  
-- **No liability**: In no event shall the authors or copyright holders be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the software or the use or other dealings in the software.  
-
-#### 3. **Third-Party Components**  
-This software may include third-party libraries (e.g., FFmpegGPL). The authors are **not liable** for defects, bugs, or issues arising from these third-party components. Users are advised to review the licenses of all included libraries and ensure compliance.  
-
-
-## Disclaimer  
-
-- **No warranties**: This software is provided "as is", without warranty of any kind.  
-- **No liability**: The authors are not liable for any damages or issues arising from the use of this software.  
-- **FFmpegGPL**: This software includes the FFmpegGPL library, which is licensed under the GNU GPL v3.0.  
-    FFmpegGPL’s official license: [FFmpeg License](https://ffmpeg.org/legal.html).  
+ 
+#### **No Warranty or Liability**  
+- This software is provided **"as is"**, without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and non-infringement.  
+- In no event shall the authors or copyright holders be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the software or the use or other dealings in the software.  
+- **Third-party components** (e.g., FFmpegGPL) are not liable for defects, bugs, or issues arising from their use. Users are advised to review the licenses of all included libraries and ensure compliance.
 
 ---
 
@@ -41,7 +32,7 @@ This software may include third-party libraries (e.g., FFmpegGPL). The authors a
 
 1. Download the source code from [GitHub](https://github.com/danomite666/Tri-Cast-Video-Converter-For-DLNA).  
 2. Compile and run the application.  
-3. Ensure compliance with the GNU GPL v3.0 license when distributing or modifying this software.  
+3. Ensure compliance with the GNU GPL v3.0 license when distributing or modifying this software, especially when incorporating the **FFmpegGPL library**, which requires the software to be licensed under GPLv3.
 
 ---
 
