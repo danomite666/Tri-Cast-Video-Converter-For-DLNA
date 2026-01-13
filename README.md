@@ -15,7 +15,8 @@ Copyright © 2026 Tri Cast
 #### **No Warranty or Liability**  
 - This software is provided **"as is"**, without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and non-infringement.  
 - In no event shall the authors or copyright holders be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the software or the use or other dealings in the software.  
-- **Third-party components** (e.g., FFmpegGPL) are not liable for defects, bugs, or issues arising from their use. Users are advised to review the licenses of all included libraries and ensure compliance.
+- #### **Third-Party Components**  
+This software includes the third-party library (FFmpegGPL).  License: (https://licenses.nuget.org/GPL-3.0-or-later) Users are advised to **review the license** and ensure compliance with their terms, including the requirement to provide source code for GPL-licensed components like FFmpegGPL.
 
 This software is licensed under the **GNU General Public License v3.0 or later** (GPLv3+).  
 For the full text of the GNU GPL v3.0, see the `LICENSE.txt` file in this repository or visit:  
