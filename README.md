@@ -1,11 +1,11 @@
-# Tri-Cast-Video-Converter-For-DLNA  
+# Tri Cast Desktop Video Converter For DLNA  
 A Desktop App that uses FFmpegGPL to convert videos to a format that supports DLNA.  
 
 Built with FFmpegGPL (GNU General Public License v3.0).  
 
 ---
 
-# Tri Cast Desktop Video Converter - License Notice 
+# - License Notice 
 
 This software is licensed under the **GNU General Public License v3.0 or later**.  
 For details, see the full license below.
